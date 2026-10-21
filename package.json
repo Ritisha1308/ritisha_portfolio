@@ -1,0 +1,11 @@
+{
+  "name": "ritisha-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Ritisha Naigaonkar (HTML, CSS, JavaScript and Node.js)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

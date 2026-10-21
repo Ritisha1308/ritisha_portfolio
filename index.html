@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B0A1F">
+  <title>Ritisha Naigaonkar | Web Developer and AI Builder</title>
+  <meta name="description" content="Portfolio of Ritisha Naigaonkar, a Computer Engineering student from Nagpur who builds agentic AI apps, web projects and hardware prototypes.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23FFD166'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='700' text-anchor='middle' fill='%230B0A1F'%3ERN%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav" id="nav">
+    <a class="logo" href="#home" aria-label="Ritisha Naigaonkar, home"><span class="logo-mark">RN</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="status-pill hero-in"><span class="dot" aria-hidden="true"></span>Open to web development and AI internships</p>
+          <h1>
+            <span class="h1-line hero-in d2">Ritisha</span>
+            <span class="h1-line hero-in d3">Naigaonkar</span>
+          </h1>
+          <p class="role-line hero-in d4">
+            I build
+            <span class="sr-only">agentic AI apps, clean web pages and tools that solve real problems.</span>
+            <span class="typed" id="typed" aria-hidden="true"></span>
+          </p>
+          <p class="lede hero-in d4">
+            Computer Engineering student at Symbiosis Institute of Technology, Nagpur.
+            I turn ideas into working products, and I learn fastest by building them.
+          </p>
+          <div class="hero-actions hero-in d5">
+            <a class="btn btn-light" href="#projects">See my projects</a>
+            <a class="btn btn-outline" href="resume.pdf" download>Download resume</a>
+          </div>
+          <p class="social-line hero-in d5">
+            <a href="https://github.com/Ritisha1308" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/ritisha-naigaonkar-ba7113320" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#contact">Contact</a>
+          </p>
+        </div>
+
+        <div class="portrait hero-in d3">
+          <div class="arch" aria-hidden="true"></div>
+          <img class="cutout" src="images/profile-cutout.webp" width="532" height="931"
+               alt="Ritisha Naigaonkar in her college blazer, smiling with her hands folded">
+          <span class="float-chip chip-a">B.Tech CSE, SIT Nagpur</span>
+          <span class="float-chip chip-b">Product Experience Intern</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT + CAREER INTERESTS ===== -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="about-grid">
+          <div>
+            <h2>Student by degree, builder by habit</h2>
+            <p>
+              I'm a Computer Engineering student at <strong>Symbiosis Institute of Technology, Nagpur</strong>,
+              with a strong interest in web development and problem-solving. I like taking an idea all the way to a
+              working product, from the first sketch to deployment.
+            </p>
+            <p>
+              My work ranges from an <strong>agentic AI marketing app deployed on Render</strong> to a
+              facial-recognition CCTV system and an Arduino sensor prototype. I've also completed a
+              <strong>Product Experience internship</strong>, where I tested apps, wrote reports and shared UI/UX ideas.
+            </p>
+            <p>
+              I'm good at working with AI tools: I write prompts that get <strong>ChatGPT or Claude</strong> to give
+              precise, useful answers for assignments, research and everyday tasks. I'm still sharpening my
+              communication, so I say yes to group discussions and interviews. That's how I improve.
+            </p>
+          </div>
+
+          <dl class="facts">
+            <div class="fact"><dt>Based in</dt><dd>Nagpur, India</dd></div>
+            <div class="fact"><dt>Studying</dt><dd>B.Tech, Computer Science Engineering (expected Jan 2028)</dd></div>
+            <div class="fact"><dt>Languages</dt><dd>English, Hindi and Marathi (fluent), German (basic)</dd></div>
+            <div class="fact"><dt>Looking for</dt><dd>A web development or AI internship</dd></div>
+          </dl>
+        </div>
+
+        <h3 class="sub-title">Career interests</h3>
+        <ul class="interest-grid">
+          <li class="interest" data-tone="violet">
+            <h4>Web development</h4>
+            <p>Building clean, responsive interfaces with HTML, CSS and JavaScript.</p>
+          </li>
+          <li class="interest" data-tone="coral">
+            <h4>Agentic AI</h4>
+            <p>Designing multi-agent workflows and writing prompts that make LLMs genuinely useful.</p>
+          </li>
+          <li class="interest" data-tone="sun">
+            <h4>Product and UX</h4>
+            <p>Testing products, spotting usability gaps and suggesting better flows, as I did at Kelicalix.</p>
+          </li>
+          <li class="interest" data-tone="mint">
+            <h4>Cybersecurity</h4>
+            <p>Learning the fundamentals and designing tools like CyberRakshak to protect users from scams.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== JOURNEY: EDUCATION + EXPERIENCE + MARKS ===== -->
+    <section class="section band" id="journey">
+      <div class="wrap">
+        <h2>Journey so far</h2>
+        <p class="section-sub">Where I've studied, where I've worked, and how my marks have moved.</p>
+
+        <div class="journey-grid">
+          <div>
+            <h3 class="sub-title">Education</h3>
+            <ol class="timeline">
+              <li>
+                <span class="tl-dot" aria-hidden="true"></span>
+                <article class="tl-card">
+                  <h4>B.Tech, Computer Science Engineering</h4>
+                  <p class="tl-meta">Symbiosis Institute of Technology, Nagpur</p>
+                  <p class="tl-when">Expected January 2028</p>
+                  <p>SGPA: 7.46, 7.50 and 8.08 in Semesters 1 to 3.</p>
+                </article>
+              </li>
+              <li>
+                <span class="tl-dot" aria-hidden="true"></span>
+                <article class="tl-card">
+                  <h4>Higher Secondary (HSC)</h4>
+                  <p class="tl-meta">Major Hemant Jakate Junior College, Nagpur</p>
+                  <p class="tl-when">March 2024</p>
+                  <p>Scored <strong>81.83%</strong>.</p>
+                </article>
+              </li>
+              <li>
+                <span class="tl-dot" aria-hidden="true"></span>
+                <article class="tl-card">
+                  <h4>Secondary (SSC)</h4>
+                  <p class="tl-meta">Tejswini Vidya Mandir, Nagpur</p>
+                  <p class="tl-when">June 2022</p>
+                  <p>Scored <strong>94.60%</strong>.</p>
+                </article>
+              </li>
+            </ol>
+          </div>
+
+          <div>
+            <h3 class="sub-title">Experience</h3>
+            <ol class="timeline">
+              <li>
+                <span class="tl-dot tl-dot-sun" aria-hidden="true"></span>
+                <article class="tl-card">
+                  <h4>Product Experience Intern</h4>
+                  <p class="tl-meta">Kelicalix Technologies, remote</p>
+                  <p class="tl-when">25 May 2026 to 30 June 2026</p>
+                  <ul>
+                    <li>Ran functional and beta testing on web and mobile apps to find bugs, usability issues and performance gaps.</li>
+                    <li>Wrote detailed testing reports, documented issues and re-tested fixes.</li>
+                    <li>Contributed UI/UX ideas for the Home, Journal and Communities pages.</li>
+                    <li>Helped the marketing team with X (Twitter) scripts, trend research and weekly content planning.</li>
+                  </ul>
+                </article>
+              </li>
+              <li>
+                <span class="tl-dot tl-dot-sun" aria-hidden="true"></span>
+                <article class="tl-card">
+                  <h4>Student Software Developer</h4>
+                  <p class="tl-meta">Symbiosis Institute of Technology, Nagpur</p>
+                  <ul>
+                    <li>Took part in code reviews to keep code quality and best practices high.</li>
+                    <li>Debugged and fixed many software issues, which built my root-cause thinking.</li>
+                    <li>Gave technical support to end users and resolved reported problems.</li>
+                    <li>Mentored junior developers on coding best practices.</li>
+                  </ul>
+                </article>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Academic performance -->
+        <div class="marks" id="marks">
+          <div class="marks-text">
+            <h3>Academic performance</h3>
+            <p class="muted">School marks in percent. University marks as SGPA out of 10, rising every semester so far.</p>
+          </div>
+          <div class="marks-bars">
+            <div class="track-row">
+              <span class="track-label">SSC (2022)</span>
+              <div class="track"><i data-value="94.6"></i></div>
+              <span class="track-value">94.60%</span>
+            </div>
+            <div class="track-row">
+              <span class="track-label">HSC (2024)</span>
+              <div class="track"><i data-value="81.83"></i></div>
+              <span class="track-value">81.83%</span>
+            </div>
+          </div>
+          <div class="marks-cols" role="img" aria-label="SGPA by semester: Semester 1 is 7.46, Semester 2 is 7.50, Semester 3 is 8.08, out of 10">
+            <div class="col-item"><span class="col-val">7.46</span><div class="col"><i data-value="74.6"></i></div><span class="col-name">Sem 1</span></div>
+            <div class="col-item"><span class="col-val">7.50</span><div class="col"><i data-value="75"></i></div><span class="col-name">Sem 2</span></div>
+            <div class="col-item"><span class="col-val">8.08</span><div class="col"><i data-value="80.8"></i></div><span class="col-name">Sem 3</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <h2>Technical skills</h2>
+        <p class="section-sub">Three segments means strong, two means comfortable, one means still learning.</p>
+
+        <div class="skill-grid" id="skillGrid"></div>
+
+        <div class="skill-grid skill-grid-pills">
+          <div class="skill-card" data-tone="sun">
+            <h3>Tools</h3>
+            <ul class="pills"><li>VS Code</li><li>GitHub</li><li>Antigravity</li><li>Render</li><li>Gradio</li></ul>
+          </div>
+          <div class="skill-card" data-tone="violet">
+            <h3>Core subjects</h3>
+            <ul class="pills"><li>Data Structures</li><li>DBMS (MySQL)</li><li>Operating Systems</li><li>Linux administration (RH124)</li></ul>
+          </div>
+          <div class="skill-card" data-tone="mint">
+            <h3>Interests</h3>
+            <ul class="pills"><li>Cybersecurity</li><li>UI design</li><li>Hardware prototyping</li></ul>
+          </div>
+          <div class="skill-card" data-tone="coral">
+            <h3>Languages I speak</h3>
+            <div id="langList" class="meter-list"></div>
+          </div>
+        </div>
+
+        <ul class="strengths">
+          <li class="strength strength-main">
+            <h3>Prompt engineering</h3>
+            <p>I write clear, structured prompts that get precise answers from ChatGPT and Claude, for assignments, research and everyday tasks.</p>
+          </li>
+          <li class="strength"><h3>Logical thinker</h3><p>I break problems into small steps and solve them one by one.</p></li>
+          <li class="strength"><h3>Quick learner</h3><p>My marks have improved every semester.</p></li>
+          <li class="strength"><h3>Eager communicator</h3><p>Always up for discussions and interviews, and improving with each one.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section band" id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <p class="section-sub">Things I've built, designed or prototyped. Use the filters to narrow them down.</p>
+
+        <div class="filters" id="filters" role="group" aria-label="Filter projects">
+          <button type="button" class="chip-btn" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="chip-btn" data-filter="ai" aria-pressed="false">AI</button>
+          <button type="button" class="chip-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button type="button" class="chip-btn" data-filter="security" aria-pressed="false">Security</button>
+          <button type="button" class="chip-btn" data-filter="hardware" aria-pressed="false">Hardware</button>
+        </div>
+
+        <div class="project-grid" id="projectGrid" aria-live="polite">
+          <p class="muted">Loading projects...</p>
+        </div>
+
+        <!-- Interactive demo of the 3-agent idea -->
+        <div class="bench" aria-labelledby="benchTitle">
+          <div class="bench-intro">
+            <h3 id="benchTitle">Try the three-agent idea</h3>
+            <p class="muted">
+              A small simulation of how my Agentic AI Marketing Generator works: one agent studies the audience,
+              one picks the strategy and one writes the message. Change the inputs and run it.
+            </p>
+            <form class="bench-form" id="agentForm" autocomplete="off">
+              <div class="field">
+                <label for="product">Product name</label>
+                <input id="product" name="product" type="text" value="StudyNest" maxlength="40" required>
+              </div>
+              <div class="field">
+                <label for="audience">Audience</label>
+                <select id="audience" name="audience">
+                  <option value="students">College students</option>
+                  <option value="professionals">Young professionals</option>
+                  <option value="parents">Busy parents</option>
+                </select>
+              </div>
+              <button class="btn btn-light btn-block" id="runBtn" type="submit">Run the agents</button>
+            </form>
+          </div>
+
+          <div class="bench-out">
+            <ol class="steps" id="steps">
+              <li class="step" data-state="idle"><span class="step-icon" aria-hidden="true"></span><div><strong>Audience agent</strong><p>Waiting to start</p></div></li>
+              <li class="step" data-state="idle"><span class="step-icon" aria-hidden="true"></span><div><strong>Strategy agent</strong><p>Waiting to start</p></div></li>
+              <li class="step" data-state="idle"><span class="step-icon" aria-hidden="true"></span><div><strong>Message agent</strong><p>Waiting to start</p></div></li>
+            </ol>
+            <div class="bubble" aria-live="polite">
+              <p class="bubble-title">Generated message</p>
+              <p class="bubble-text" id="agentMsg">Press "Run the agents" to see the result.</p>
+              <button class="chip-btn chip-dark" id="copyBtn" type="button" hidden>Copy message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATES ===== -->
+    <section class="section" id="certificates">
+      <div class="wrap">
+        <h2>Certificates</h2>
+        <p class="section-sub">Courses, internship and events. Select any certificate to view it in full.</p>
+        <div class="cert-grid" id="certGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== HIGHLIGHTS: ACHIEVEMENTS + PARTICIPATION (light section) ===== -->
+    <section class="section light" id="highlights">
+      <div class="wrap">
+        <h2>Achievements and participation</h2>
+        <p class="section-sub">Wins, events and the activities that shaped how I work.</p>
+
+        <div class="hl-grid">
+          <div>
+            <h3 class="sub-title">Achievements</h3>
+            <ul class="hl-list">
+              <li>
+                <span class="hl-date">Sept 2026</span>
+                <div>
+                  <h4>Certificate of Achievement, Symbiplay 3.0</h4>
+                  <p>Recognised for exceptional performance and outstanding involvement at Symbiplay 3.0 (27 to 29 September), hosted by Symbiosis Law School, Nagpur. Came home with a trophy and a medal.</p>
+                </div>
+              </li>
+              <li>
+                <span class="hl-date">Jul 2026</span>
+                <div>
+                  <h4>Completed the Kelicalix internship</h4>
+                  <p>Finished the Product Experience Internship and received a completion certificate.</p>
+                </div>
+              </li>
+              <li>
+                <span class="hl-date">2026</span>
+                <div>
+                  <h4>Deployed an Agentic AI app</h4>
+                  <p>Built a three-agent marketing message generator and put it live on Render.</p>
+                </div>
+              </li>
+              <li>
+                <span class="hl-date">Semesters 1 to 3</span>
+                <div>
+                  <h4>Marks that keep climbing</h4>
+                  <p>SGPA rose from 7.46 to 8.08. Scored 94.60% in SSC.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="sub-title">Participation and contributions</h3>
+            <ul class="hl-list">
+              <li>
+                <span class="hl-date">9 Mar 2026</span>
+                <div>
+                  <h4>Hackathonix 2.0, 12-hour hackathon</h4>
+                  <p>Took part in the hackathon organised by the Coding Club of K.D.K. College of Engineering, Nagpur.</p>
+                </div>
+              </li>
+              <li>
+                <span class="hl-date">26 to 28 Feb 2026</span>
+                <div>
+                  <h4>CodeSprint 2.0 at Enthusia 5.0</h4>
+                  <p>Participated in the coding event at Symbiosis Institute of Technology, Nagpur and received a Certificate of Appreciation.</p>
+                </div>
+              </li>
+              <li>
+                <span class="hl-date">Mar 2026</span>
+                <div>
+                  <h4>Red Hat System Administration I (RH124)</h4>
+                  <p>Attended the 40-hour course on Linux system administration.</p>
+                </div>
+              </li>
+              <li>
+                <span class="hl-date">Ongoing</span>
+                <div>
+                  <h4>Student Software Developer, SIT Nagpur</h4>
+                  <p>Code reviews, user support and mentoring junior developers.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="section" id="gallery">
+      <div class="wrap">
+        <h2>Gallery</h2>
+        <p class="section-sub">Moments from campus, events and the workbench.</p>
+        <div class="gallery" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact-panel">
+        <div class="contact-copy">
+          <h2>Let's work together</h2>
+          <p>Looking for a web development or AI intern? Send me a message and I'll reply as soon as I can.</p>
+          <ul class="contact-list">
+            <li><span>Location</span><strong>Nagpur, Maharashtra, India</strong></li>
+            <li><span>Phone</span><a href="tel:+917058456191"><strong>+91 70584 56191</strong></a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/ritisha-naigaonkar-ba7113320" target="_blank" rel="noopener noreferrer"><strong>ritisha-naigaonkar-ba7113320</strong></a></li>
+            <li><span>GitHub</span><a href="https://github.com/Ritisha1308" target="_blank" rel="noopener noreferrer"><strong>Ritisha1308</strong></a></li>
+          </ul>
+          <a class="btn btn-sun" href="resume.pdf" download>Download resume</a>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="cName">Your name</label>
+            <input id="cName" name="name" type="text" autocomplete="name" maxlength="80" required>
+            <span class="error" id="cNameErr" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="cEmail">Your email</label>
+            <input id="cEmail" name="email" type="email" autocomplete="email" maxlength="120" required>
+            <span class="error" id="cEmailErr" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="cMessage">Message</label>
+            <textarea id="cMessage" name="message" rows="4" maxlength="2000" required></textarea>
+            <span class="error" id="cMessageErr" role="alert"></span>
+          </div>
+          <button class="btn btn-dark btn-block" id="sendBtn" type="submit">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Ritisha Naigaonkar. Built with HTML, CSS, JavaScript and Node.js.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox used by certificates and gallery -->
+  <dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+    <div class="lb-inner">
+      <img id="lbImg" src="" alt="">
+      <p class="lb-cap" id="lbCap"></p>
+      <div class="lb-bar">
+        <button class="chip-btn" id="lbPrev" type="button">Previous</button>
+        <button class="chip-btn" id="lbNext" type="button">Next</button>
+        <button class="chip-btn chip-solid" id="lbClose" type="button">Close</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
